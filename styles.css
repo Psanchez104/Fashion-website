@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+#showcase{
+    background: url(StartUp.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+}
+
+#showcase h1{
+    font-size: 62px;
+    margin-top: 145px;
+    margin-bottom: 85px;
+}
+
+.red{
+    color: red;
+}
+.orange{
+    color: orange;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.iv{
+    color: indigo;
+}
+
+nav ul{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 22px;
+}
+
+nav li{
+    margin-right: 22px;
+}
+
+nav a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+#about{
+    background: url(About.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+}
+
+#about h1{
+    font-size: 62px;
+    margin-top: 145px;
+    margin-bottom: 85px;
+}
+
+
+#directions{
+    background: url(Dir.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+}
+
+#directions h1{
+    font-size: 62px;
+    margin-top: 145px;
+    margin-bottom: 85px;
+}
